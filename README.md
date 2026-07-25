@@ -1,6 +1,6 @@
 # 🌿 Amber & Herb — Eat Local, Eat Healthy 🥗✨
 
-![Amber & Herb Banner](./public/images/banner.png)
+![Hero Bowl](./public/images/hero-bowl.png)
 
 <div align="center">
 
@@ -25,8 +25,6 @@
 
 Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natural, farm-fresh ingredients with zero artificial preservatives**. Users can easily browse through categorized food menus, explore healthy meal bowls, learn about organic farming origins, and get wholesome meals delivered to their doorstep in under **48 hours**! 🚚📦
 
-![Online Delivery Platform](./public/images/delivery-platform.png)
-
 ---
 
 ## 💡 Why This Website is Used (Purpose & Core Mission) 🎯
@@ -40,8 +38,6 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 
 ## 👥 Why Amber & Herb is Helpful for Everyone 🎓💼
 
-![Student & Learner Focus](./public/images/student-food.png)
-
 ### 🎒 1. For Students & Young Learners
 - 🧠 **Brain-Boosting Meals:** Helps students choose nutritious study snacks (fresh smoothies, fruit bowls, protein salads) to stay alert during exams.
 - 💰 **Budget Friendly:** Offers combo options and accessible meal pricing tailored for student budgets.
@@ -50,8 +46,6 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 ### 💼 2. For Developers, Recruiters & Tech Interviewers
 - ⚡ **Modern Stack:** Demonstrates clean architecture using Next.js App Router, Server Components, dynamic seeding, and Drizzle ORM.
 - 🎨 **Visual Excellence:** High-end UI aesthetics featuring glassmorphism, responsive marquee banners, and atomic component architecture.
-
-![Tech Review Showcase](./public/images/tech-review.png)
 
 ### 👵 3. For Families & Senior Citizens
 - 🥬 **Easy Digestion:** Low-salt, soft, preservative-free ingredients suitable for older adults and children.
@@ -72,8 +66,6 @@ Amber & Herb is engineered for **speed, scalability, and maintainability**:
 
 ## 🧩 Components & Stuff Contained in the Website 📦
 
-![Healthy Menu Items](./public/images/healthy-menu.png)
-
 The application is structured into reusable, modular React components:
 
 | Component Name | File Path | Description |
@@ -88,18 +80,6 @@ The application is structured into reusable, modular React components:
 | 🤝 **Partners** | [`src/components/Sections.tsx`](./src/components/Sections.tsx) | Displays logos and badges of certified local partner farms. |
 | ❓ **FaqContact** | [`src/components/FaqContact.tsx`](./src/components/FaqContact.tsx) | Dynamic expandable FAQs section and interactive contact form. |
 | 🦶 **Footer** | [`src/components/FaqContact.tsx`](./src/components/FaqContact.tsx) | Footer navigation links, copyright, and social media icons. |
-
----
-
-## 🖼️ Image Gallery 📸
-
-| Hero Bowl Artwork | Menu Items Showcase |
-| :---: | :---: |
-| ![Hero Bowl](./public/images/hero-bowl.png) | ![Menu Items](./public/images/healthy-menu.png) |
-
-| Express Delivery | Tech & Architecture |
-| :---: | :---: |
-| ![Delivery](./public/images/delivery-platform.png) | ![Tech Review](./public/images/tech-review.png) |
 
 ---
 
