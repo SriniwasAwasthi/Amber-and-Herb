@@ -1,6 +1,6 @@
 # 🌿 Amber & Herb — Eat Local, Eat Healthy 🥗✨
 
-![Amber & Herb Banner](./assets/banner.png)
+![Amber & Herb Banner](./.github/assets/banner.png)
 
 <div align="center">
 
@@ -22,13 +22,13 @@
 ## 📸 Real Website Live Screenshots 🖥️✨
 
 ### 🏠 1. Live Hero Section
-![Real Website Hero Section](./assets/real-hero-section.png)
+![Real Website Hero Section](./.github/assets/real-hero-section.png)
 
 ### 🥗 2. Live Interactive Menu ("This Week's Table")
-![Real Website Menu Section](./assets/real-menu-section.png)
+![Real Website Menu Section](./.github/assets/real-menu-section.png)
 
 ### 📬 3. Live Contact & Order Inquiries Form
-![Real Website Contact Section](./assets/real-contact-section.png)
+![Real Website Contact Section](./.github/assets/real-contact-section.png)
 
 ---
 
@@ -38,7 +38,7 @@
 
 Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natural, farm-fresh ingredients with zero artificial preservatives**. Users can easily browse through categorized food menus, explore healthy meal bowls, learn about organic farming origins, and get wholesome meals delivered to their doorstep in under **48 hours**! 🚚📦
 
-![Online Delivery Platform Concept](./assets/delivery-platform.png)
+![Online Delivery Platform Concept](./.github/assets/delivery-platform.png)
 
 ---
 
@@ -53,7 +53,7 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 
 ## 👥 Why Amber & Herb is Helpful for Everyone 🎓💼
 
-![Student & Learner Focus](./assets/student-food.png)
+![Student & Learner Focus](./.github/assets/student-food.png)
 
 ### 🎒 1. For Students & Young Learners
 - 🧠 **Brain-Boosting Meals:** Helps students choose nutritious study snacks (fresh smoothies, fruit bowls, protein salads) to stay alert during exams.
@@ -64,7 +64,7 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 - ⚡ **Modern Stack:** Demonstrates clean architecture using Next.js App Router, Server Components, dynamic seeding, and Drizzle ORM.
 - 🎨 **Visual Excellence:** High-end UI aesthetics featuring glassmorphism, responsive marquee banners, and atomic component architecture.
 
-![Tech Review Showcase](./assets/tech-review.png)
+![Tech Review Showcase](./.github/assets/tech-review.png)
 
 ### 👵 3. For Families & Senior Citizens
 - 🥬 **Easy Digestion:** Low-salt, soft, preservative-free ingredients suitable for older adults and children.
@@ -85,7 +85,7 @@ Amber & Herb is engineered for **speed, scalability, and maintainability**:
 
 ## 🧩 Application Architecture & Component Structure 📦
 
-![Healthy Menu Artwork](./assets/healthy-menu.png)
+![Healthy Menu Artwork](./.github/assets/healthy-menu.png)
 
 The Amber & Herb platform is structured into modular, reusable Next.js 15 React components:
 
