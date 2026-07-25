@@ -13,7 +13,7 @@
 
 **An Online Food Court & Doorstep Delivery Platform delivering 100% organic, zero-preservative meals straight from local farms to your home in 48 hours! 🛵💨**
 
-[🌐 View Live Screenshots](#-real-website-live-screenshots) • [🧩 Components Overview](#-components--stuff-inside) • [🚀 Installation Guide](#-how-to-install--run-locally) • [💖 Thank You](#-a-special-thank-you-)
+[🌐 View Live Screenshots](#-real-website-live-screenshots) • [🧩 Architecture & Components](#-application-architecture--component-structure-) • [🚀 Installation Guide](#-how-to-install--run-locally) • [💖 Thank You](#-a-heartfelt-thank-you-to-every-visitor-)
 
 </div>
 
@@ -83,24 +83,42 @@ Amber & Herb is engineered for **speed, scalability, and maintainability**:
 
 ---
 
-## 🧩 Components & Stuff Contained in the Website 📦
+## 🧩 Application Architecture & Component Structure 📦
 
 ![Healthy Menu Artwork](./assets/healthy-menu.png)
 
-The application is structured into reusable, modular React components:
+The Amber & Herb platform is structured into modular, reusable Next.js 15 React components:
 
-| Component Name | File Path | Description |
-| :--- | :--- | :--- |
-| 🧭 **Nav** | [`src/components/Nav.tsx`](./src/components/Nav.tsx) | Sticky navigation bar with brand branding, links, and order CTA button. |
-| 🚀 **Hero** | [`src/components/Hero.tsx`](./src/components/Hero.tsx) | High-impact hero section showcasing `hero-bowl.png` image and main tagline. |
-| 📜 **Marquee** | [`src/components/box.tsx`](./src/components/box.tsx) | Continuous scrolling ticker featuring live slogans ("Eat Local", "Zero Preservatives"). |
-| 🥗 **MenuSection** | [`src/components/MenuSection.tsx`](./src/components/MenuSection.tsx) | Interactive meal catalog displaying food categories, prices, and ingredient tags. |
-| 🥦 **Fresh & Source** | [`src/components/Sections.tsx`](./src/components/Sections.tsx) | Illustrates fresh farm sourcing and soil quality standards. |
-| 🎯 **Goals & Lifestyle** | [`src/components/Sections.tsx`](./src/components/Sections.tsx) | Highlights nutritional targets and healthy lifestyle habits. |
-| 🛡️ **Trusted & Family** | [`src/components/Sections.tsx`](./src/components/Sections.tsx) | Displays customer trust stats and family meal packages. |
-| 🤝 **Partners** | [`src/components/Sections.tsx`](./src/components/Sections.tsx) | Displays logos and badges of certified local partner farms. |
-| ❓ **FaqContact** | [`src/components/FaqContact.tsx`](./src/components/FaqContact.tsx) | Dynamic expandable FAQs section and interactive contact form. |
-| 🦶 **Footer** | [`src/components/FaqContact.tsx`](./src/components/FaqContact.tsx) | Footer navigation links, copyright, and social media icons. |
+```text
+src/
+├── app/                  # Next.js 15 App Router pages & API endpoints
+│   ├── api/              # Backend API routes (health check, order inquiries)
+│   ├── globals.css       # Custom design system, CSS variables & animations
+│   ├── layout.tsx        # Global HTML layout & metadata configuration
+│   └── page.tsx          # Main home page aggregating all modular sections
+│
+├── components/           # Reusable UI React components
+│   ├── Nav.tsx           # Sticky brand navigation bar & CTA order triggers
+│   ├── Hero.tsx          # Dynamic hero banner showcasing featured meal prep bowl
+│   ├── MenuSection.tsx   # Interactive food catalog with category filters & pricing
+│   ├── Sections.tsx      # Core showcase modules (Farm Sourcing, Lifestyle, Goals, Partners)
+│   ├── FaqContact.tsx    # Dynamic FAQ accordion & order inquiry contact form
+│   └── box.tsx           # Animated continuous slogan ticker & layout wrappers
+│
+├── db/                   # Database configuration & ORM schemas
+│   ├── index.ts          # SQLite database connection setup
+│   └── schema.ts         # Drizzle ORM schema for meals, categories, & FAQs
+│
+└── lib/                  # Helper utilities & data seeders
+    └── seed.ts           # Auto-seeding database engine for initial meal catalog
+```
+
+### 🌟 Key Feature Modules
+- 🧭 **Navigation & Hero Hub (`Nav.tsx`, `Hero.tsx`):** Instant brand introduction with animated category badges and CTA order triggers.
+- 📜 **Continuous Marquee Ticker (`box.tsx`):** Infinite scrolling banner broadcasting live platform values (*"Eat Local"*, *"Zero Preservatives"*).
+- 🥗 **Interactive Food Catalog (`MenuSection.tsx`):** Live database-driven meal filtering by dietary tags (High Protein, Vegan, Gluten-Free).
+- 🥦 **Farm Sourcing & Lifestyle (`Sections.tsx`):** Informative visual cards explaining organic farm connections, soil standards, and customer trust metrics.
+- ❓ **Support & Inquiries (`FaqContact.tsx`):** Collapsible FAQs paired with a functional contact form that submits inquiries directly to the API routes.
 
 ---
 
@@ -157,16 +175,19 @@ http://localhost:3000
 
 ---
 
-## 💖 A Special Thank You! 🌿✨
+## 💖 A Heartfelt Thank You to Every Visitor! 🌿✨
 
-Thank you so much for dropping by and spending your precious time exploring my profile and projects! 💖  
-It truly means the world to me that you took a moment out of your day to read through my work and journey. 🌿✨  
+Thank you so much for taking your valuable time to explore **Amber & Herb**! 🌟
 
-I hope you found something here that inspired you or brought a smile to your face! 🚀  
-Building and learning is a journey I cherish, and knowing you took the time to read through it makes it all the more special. 💫  
+Whether you are a fellow developer, a recruiter, a curious learner, or a passionate food lover, your presence here means the absolute world to me. 🍕💚 Building projects that blend modern software engineering with real-world healthy living is my passion, and sharing this journey with awesome human beings like you makes it truly rewarding. 🚀💫
 
-🌈 **If you enjoyed what you saw, feel free to connect or leave a star ⭐️**  
-Wishing you endless success and brightness in everything you do! 🚀✨ Have a fantastic day ahead! 💖🚀
+🌱 **My Wish for You:**  
+I hope exploring this project brought fresh ideas, inspiration, or a big smile to your day! May your journey be filled with endless growth, bright energy, good health, and incredible achievements. ☀️🌈
+
+⭐ **Let's Connect & Build Together!**  
+If you enjoyed exploring Amber & Herb, feel free to **leave a star ⭐️** on this repository or reach out to connect! 
+
+*Wishing you positivity, success, and delicious healthy food always! Have an extraordinary day ahead!* 🌺✨
 
 ---
 
