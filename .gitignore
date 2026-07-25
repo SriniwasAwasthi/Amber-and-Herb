@@ -6,6 +6,9 @@
 /.next/
 /out/
 
+# ignore public images folder from git repo
+/public/images/
+
 # production
 /build
 

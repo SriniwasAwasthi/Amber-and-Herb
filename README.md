@@ -1,6 +1,6 @@
 # 🌿 Amber & Herb — Eat Local, Eat Healthy 🥗✨
 
-![Hero Bowl](./public/images/hero-bowl.png)
+![Amber & Herb Banner](./assets/banner.png)
 
 <div align="center">
 
@@ -13,9 +13,22 @@
 
 **An Online Food Court & Doorstep Delivery Platform delivering 100% organic, zero-preservative meals straight from local farms to your home in 48 hours! 🛵💨**
 
-[🌐 View Live Demo](#-how-to-install--run-locally) • [🧩 Components Overview](#-components--stuff-inside) • [🚀 Installation Guide](#-how-to-install--run-locally) • [💖 Thank You](#-a-special-thank-you-)
+[🌐 View Live Screenshots](#-real-website-live-screenshots) • [🧩 Components Overview](#-components--stuff-inside) • [🚀 Installation Guide](#-how-to-install--run-locally) • [💖 Thank You](#-a-special-thank-you-)
 
 </div>
+
+---
+
+## 📸 Real Website Live Screenshots 🖥️✨
+
+### 🏠 1. Live Hero Section
+![Real Website Hero Section](./assets/real-hero-section.png)
+
+### 🥗 2. Live Interactive Menu ("This Week's Table")
+![Real Website Menu Section](./assets/real-menu-section.png)
+
+### 📬 3. Live Contact & Order Inquiries Form
+![Real Website Contact Section](./assets/real-contact-section.png)
 
 ---
 
@@ -24,6 +37,8 @@
 **Amber & Herb** is a modern, full-stack online food court and delivery platform. It bridges the gap between **local organic farmers** and **healthy food lovers**. 
 
 Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natural, farm-fresh ingredients with zero artificial preservatives**. Users can easily browse through categorized food menus, explore healthy meal bowls, learn about organic farming origins, and get wholesome meals delivered to their doorstep in under **48 hours**! 🚚📦
+
+![Online Delivery Platform Concept](./assets/delivery-platform.png)
 
 ---
 
@@ -38,6 +53,8 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 
 ## 👥 Why Amber & Herb is Helpful for Everyone 🎓💼
 
+![Student & Learner Focus](./assets/student-food.png)
+
 ### 🎒 1. For Students & Young Learners
 - 🧠 **Brain-Boosting Meals:** Helps students choose nutritious study snacks (fresh smoothies, fruit bowls, protein salads) to stay alert during exams.
 - 💰 **Budget Friendly:** Offers combo options and accessible meal pricing tailored for student budgets.
@@ -46,6 +63,8 @@ Unlike conventional fast-food delivery apps, Amber & Herb focuses on **100% natu
 ### 💼 2. For Developers, Recruiters & Tech Interviewers
 - ⚡ **Modern Stack:** Demonstrates clean architecture using Next.js App Router, Server Components, dynamic seeding, and Drizzle ORM.
 - 🎨 **Visual Excellence:** High-end UI aesthetics featuring glassmorphism, responsive marquee banners, and atomic component architecture.
+
+![Tech Review Showcase](./assets/tech-review.png)
 
 ### 👵 3. For Families & Senior Citizens
 - 🥬 **Easy Digestion:** Low-salt, soft, preservative-free ingredients suitable for older adults and children.
@@ -65,6 +84,8 @@ Amber & Herb is engineered for **speed, scalability, and maintainability**:
 ---
 
 ## 🧩 Components & Stuff Contained in the Website 📦
+
+![Healthy Menu Artwork](./assets/healthy-menu.png)
 
 The application is structured into reusable, modular React components:
 
